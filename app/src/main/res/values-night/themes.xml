@@ -3,6 +3,9 @@
     <style name="Base.Theme.DailiesAndroidApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/dark_black</item>
+        <item name="colorAccent">@color/lightblue</item>
 
     </style>
 </resources>
