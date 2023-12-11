@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        /* Night Mode Switch Button Code WIP
 
         val nightModeSwitch: Switch = findViewById(R.id.switchThemeBtn)
 
@@ -38,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
         }
-        */
+
         //Recycler View and Button Listener
         mRecyclerview = findViewById<View>(R.id.recyclerView) as RecyclerView
         mRecyclerview!!.layoutManager = LinearLayoutManager(applicationContext)
