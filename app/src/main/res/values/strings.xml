@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dailies</string>
+    <string name="enter_title">Enter a Title..</string>
+    <string name="enter_description">Enter a Description..</string>
+    <string name="schedule">Schedule</string>
+</resources>
