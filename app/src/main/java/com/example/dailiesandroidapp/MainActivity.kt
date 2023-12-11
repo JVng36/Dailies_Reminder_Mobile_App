@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-//This is the main screen of the android app. NightMode functionalities are WIP
+//This is the main screen of the android app.
 class MainActivity : AppCompatActivity() {
     var mCreateRem: FloatingActionButton? = null
     var mRecyclerview: RecyclerView? = null
@@ -20,23 +20,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val nightModeSwitch: Switch = findViewById(R.id.switchThemeBtn)
-
-        nightModeSwitch.isChecked = when (AppCompatDelegate.getDefaultNightMode()) {
-            AppCompatDelegate.MODE_NIGHT_YES -> true
-            else -> false
-        }
-
-        nightModeSwitch.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                // Enable night mode
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            } else {
-                // Disable night mode
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-            }
-        }
 
         //Recycler View and Button Listener
         mRecyclerview = findViewById<View>(R.id.recyclerView) as RecyclerView
