@@ -4,4 +4,6 @@
 3. Run and install on Phone<br>
    You will need a file manager to locate and open the file<br>
 4. You may get a prompt saying "Unsafe app blocked". Click "Install anyway"<br>
-5. Make sure you enable notifications and permissions for the app under "App Info" before you try to use the application.      
+5. Make sure you enable notifications and permissions for the app under "App Info" before you try to use the application.
+
+Refer to the Documentation PDF file "Dailies App by Jay Vang CPSC 491.pdf" for more information about the application.
